@@ -12,8 +12,7 @@ public class Resolucao2 {
         int a;
         int b;
         int c;
-//        int soma;
-//        int multiplica;
+        //int a, b, c;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Entre com o valor do primeiro numero");
@@ -21,13 +20,12 @@ public class Resolucao2 {
         System.out.println("Entre com o valor do segundo numero");
         b = scan.nextInt();
 
-        if (a == b){
+        if (a == b) {
             c = a + b;
             System.out.println("Sendo numeros iguais, a soma eh: " + c);
         } else {
             c = a * b;
             System.out.println("Sendo numeros diferentes, a multiplicacao eh: " + c);
         }
-
     }
 }
