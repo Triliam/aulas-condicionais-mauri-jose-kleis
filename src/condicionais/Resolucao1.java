@@ -12,12 +12,10 @@ public class Resolucao1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Entre com um numero inteiro");
         num = scan.nextInt();
-        if(num % 2 == 0){
+        if(num % 2 == 0) {
             System.out.println("O numero eh PAR !!");
         } else {
             System.out.println("O numero eh IMPAR !");
         }
-
-
     }
 }
