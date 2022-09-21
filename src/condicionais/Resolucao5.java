@@ -17,15 +17,14 @@ public class Resolucao5 {
         h = scan.nextDouble();
         System.out.println("ok, sua altura eh: " + h + " Agora digite M se for mulher e H se for homem");
         sexo = scan.next();
-        if (sexo.equalsIgnoreCase("m")){
+        if (sexo.equalsIgnoreCase("m")) {
             double peso = (62.1 * h) - 44.7;
             System.out.println("Peso ideal eh de: " + peso);
-        } else if (sexo.equalsIgnoreCase("h")){
+        } else if (sexo.equalsIgnoreCase("h")) {
             double peso = (72.7 * h) - 58;
             System.out.println("Peso ideal eh de: " + peso);
         } else {
             System.out.println("vc nao digitou um valor valido, comece novamente");
         }
-
     }
 }
