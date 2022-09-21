@@ -12,7 +12,7 @@ public class Resolucao3 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Entre com um numero positivo ou negativo");
         num = scan.nextInt();
-        if (num > 0){
+        if (num > 0) {
             System.out.println("Escolheu um numero positivo, entao o dobro do numero escolhido eh: " + num * 2);
         } else {
             System.out.println("Escolheu um numero negativo, entao o triplo do numero escolhido eh: " + num * 3);
