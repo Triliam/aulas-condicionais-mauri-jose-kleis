@@ -21,21 +21,20 @@ public class Resolucao4 {
             b = scan.nextInt();
             System.out.println("Digite um numero inteiro");
             c = scan.nextInt();
-            if (a != b && a !=c && b != c){
+            if (a != b && a !=c && b != c) {
                 valoresIguais = false;
                 System.out.println("parabens");
             }
-                if ((a > b) && (b > c)){
+                if ((a > b) && (b > c)) {
                     System.out.println(a + " " + b + " " + c);
                 }
-                if ((b > a) && (a > c)){
-                    System.out.println(b + " " + a + " " + c);}
-
-                if ((c > b) && (b > a)){
+                if ((b > a) && (a > c)) {
+                    System.out.println(b + " " + a + " " + c);
+                }
+                if ((c > b) && (b > a)) {
                         System.out.println(c + " " + b + " " + a);
             //abc, acb, bac, bca, cab, cba
             }
-        }while (valoresIguais);
-
+        } while (valoresIguais);
     }
 }
