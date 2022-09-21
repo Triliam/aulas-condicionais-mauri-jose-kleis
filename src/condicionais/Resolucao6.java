@@ -22,18 +22,18 @@ public class Resolucao6 {
         preco = scan.nextDouble();
         System.out.println("Entre com a forma de pagamento, digite 1 para: À vista em dinheiro ou cheque, recebe 10% de desconto. Digite 2 para: À vista no cartão de crédito, recebe 15% de desconto. Digite 3 para: Em duas vezes, preço normal de etiqueta sem juros. Digite 4 para: Em 10 vezes, preço normal de etiqueta mais juros de 10%");
         opcao = scan.nextInt();
-        if (opcao == 1){
+        if (opcao == 1) {
             valor = preco * 0.9;
             System.out.println("Ganhouuu 10% de desconto! viva!: " + valor);
         }
-        if(opcao == 2){
+        if(opcao == 2) {
             valor = preco * 0.85;
             System.out.println("Ganhouuu 15% de desconto! viva!: " + valor);
         }
-        if (opcao == 3){
+        if (opcao == 3) {
             System.out.println("Mesmo valor: " + preco);
         }
-        if (opcao == 4){
+        if (opcao == 4) {
             valor = preco + (0.10 * preco);
             System.out.println("Sera acrescentado 10% no valor total, valor: " + valor);
         }
